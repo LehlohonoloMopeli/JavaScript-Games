@@ -1,0 +1,21 @@
+.container-1 {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.container-1 h2 {
+    text-align: center;
+}
+
+.flex-box-container-1 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.flex-box-container-1 div {
+    padding: 10px;
+}
