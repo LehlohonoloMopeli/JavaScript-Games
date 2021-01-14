@@ -1,21 +1,16 @@
-.container-1 {
+.container-1, .container-2 {
     border: 1px solid black;
-    margin-top: 20px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin: 50px ;
 }
 
-.container-1 h2 {
+.container-1 h2, .container-2 h2 {
     text-align: center;
 }
 
-.flex-box-container-1 {
+.flex-box-container-1, .flex-box-change-color {
     border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-}
-
-.flex-box-container-1 div {
     padding: 10px;
 }
